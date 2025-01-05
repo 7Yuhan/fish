@@ -1,0 +1,39 @@
+p {
+    background: pink;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+a 
+{
+    background: blue;
+    color: white;
+}
+
+body
+{
+    margin: 0;  
+    padding: 0;  
+    background-image: url('page1.png');  
+    background-size: cover;  
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+img {
+    width: auto;
+    height: 800px; 
+}
+
+#page1click
+{
+    opacity: 10%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: fixed;
+    bottom: 5%;
+    right: 20%;
+    
+}
